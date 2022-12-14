@@ -1,12 +1,14 @@
 # Discord Bot Template
-This is a simple boilerplate template to be used to easily create Discord bots using Discord.js v14. Feel free to use this however you want!
+This is a simple boilerplate template to be used to easily create new Discord bots in under 10 minutes. It uses the latest Discord.js v14 framework, and can be used for any purposes!
 See below for the simple installation steps.
 
-### Installation
-1. Create a repo using this template and clone it to your machine
-2. Open a terminal window in that location and run the command `npm install` to install the neccessary packages
-3. Create a new file named `.env` and add two values as shown below
-   
+## Installation
+It literally only takes 5 steps:
+1. Create a new application on the Discord Developer Portal
+2. Create a repo using this template and clone it to your machine
+3. Open a terminal window in that location and run the command `npm install` to install the neccessary packages
+4. Create a new file named `.env` and add two values as shown below
+
    ```env
    # your application's token, do NOT share this with anyone
    # this can be found by heading to your application's bot page in the discord developer portal and clicking "reset token"
