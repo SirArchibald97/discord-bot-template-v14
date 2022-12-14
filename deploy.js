@@ -24,7 +24,7 @@ module.exports = async (client) => {
     try {
         // make sure to replace GUILD ID HERE with the ID of your server
         // you can find this by turning on developer mode in your settings, right clicking the server icon, and clicking "Copy ID"
-        await rest.put(Routes.applicationGuildCommands(client.user.id, "GUILD ID HERE"), { body: commands });
+        await rest.put(Routes.applicationGuildCommands(client.user.id, process.env.GUILD_ID), { body: commands });
         console.log(`Successfully registered ${commands.length} commands!`);
     } catch (error) {
         console.error(error);
